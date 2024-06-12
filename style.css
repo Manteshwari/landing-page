@@ -5,11 +5,11 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 header{
-background: #6d67e4;
+background: #000000;
 position: relative;
 }
 .container{
-max-width:1440px;
+max-width:1450px;
 padding: 0 50px;
 margin: 0 auto;
 }
@@ -45,7 +45,12 @@ nav li a:hover{
     text-underline-offset: 0.5em;
     color: white;
 }
-section video{
+section{
+    background-image: url(/landing-page/videos/seagull-3232350_1280.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* section video{
 position: absolute;
 top: 0;
 left: 0;
@@ -53,13 +58,13 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 z-index: -1;
-}
+} */
 .content{
    display: flex;
    flex-direction: column;
-   width:70%;
+   width:80%;
    justify-content: center;
-   height: 80vh;
+   height: 89vh;
    color: white;
 }
 .content h2{
@@ -107,10 +112,7 @@ z-index: -1;
     
 }
 i:hover{
-    height:50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: #6d67e4; 
+    background-color: #000002; 
 }
 .navbar .btn{
     font-size: 1.2rem;
@@ -143,7 +145,7 @@ i:hover{
         min-height: 50vh;
         top: 0;
         right: -100%;
-        background-color: #6d67e4;
+        background-color: #000000;
         align-items: flex-start;
         justify-content: center;
    
